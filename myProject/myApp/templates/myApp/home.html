@@ -5,6 +5,10 @@
 </head>
 <body>
     <h1>Hello {{ name }}! This is the index page 2.</h1>
-    <!-- Add more HTML content here -->
+    <p>Welcome to the home page of myApp.</p>
+    <p>Current date and time: {{ current_time }}</p>
+    <p>Current user: {{ current_user }}</p>
+    <p>Current request path: {{ request.path }}</p>
+    <p>Current request method: {{ request.method }}</p>
 </body>
 </html>
